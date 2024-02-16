@@ -2,7 +2,9 @@
     1. Install vscode extension Name: open in `browser open-in-browser` by TechER
     2. Right click html file and either run in default browser or another browser
   -->
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,18 +16,38 @@
   </head>
 
   <!-- page content goes into <body> -->
-  <body>
+  <body id="body">
     <div id="logoBar">
       <h1>Welcome to 100 Acre Wood!</h1>
       <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
       <h3>We're glad you're here :D</h3>
     </div>
-    <hr/>
+    <!-- <hr class="divider"/> -->
     <div id="staffGallery">
-      <img class="galleryImage" src="./assets/Eeyore-Eh.png"/>
-      <img class="galleryImage" src="./assets/Eeyore-Zz.png"/>
-      <img class="galleryImage" src="./assets/Kanga-Roo.png"/>
-      <img class="galleryImage" src="./assets/Owl-Phone.png"/>
+      <div class="card">
+        <img class="galleryImage" src="./assets/Eeyore-Eh.png"/>
+        <h3 class="name">Eeyore</h3>
+      </div>
+      <div class="card">
+        <img class="galleryImage" src="./assets/Eeyore-Zz.png"/>
+        <h3 class="name">Eeyore</h3>
+      </div>
+      <div class="card">
+        <img class="galleryImage" src="./assets/Kanga-Roo.png"/>
+        <h3 class="name">Kanga</h3>
+      </div>
+      <div class="card">
+        <img class="galleryImage" src="./assets/Owl-Phone.png"/>
+        <h3 class="name">Owl</h3>
+      </div>
+      <div class="card">
+        <img class="galleryImage" src="./assets/Pooh-Jess.png"/>
+        <h3 class="name">Pooh</h3>
+      </div>
+      <div class="card">
+        <img class="galleryImage" src="./assets/Piglet-Flower.png"/>
+        <h3 class="name">Piglet</h3>
+      </div>
     </div>
   </body>
 
